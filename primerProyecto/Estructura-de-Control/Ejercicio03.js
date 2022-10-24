@@ -1,1 +1,3 @@
-let andrius = "";
+let andrius = "",
+    apellido = "",
+     edad = 17 ;
