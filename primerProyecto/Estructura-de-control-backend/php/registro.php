@@ -1,6 +1,8 @@
 <?php
+var Nombre = "",
+    Apellido ="",
+    Usuario = ""
+    Contraseña = "";
 
-var Usuario = "";
-var Contraseña = "";
 
 ?>
