@@ -1,7 +1,8 @@
 <?php
 var Nombre = "",
     Apellido ="",
-    Usuario = ""
+    Usuario = "",
+    eda = 17,
     Contraseña = "";
 
 
