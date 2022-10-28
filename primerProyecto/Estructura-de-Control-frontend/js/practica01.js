@@ -78,3 +78,6 @@ console.log(personasMayores);
 const PersonasMayores = Estudiantes.filter(obj => obj.Nombre !== "Andrius" );
 console.log(PersonasMayores);
 
+// .SORT()
+const ordernarlista =Estudiantes.sort((a, b) =>  a.Eda - b.Eda);
+console.log( ordernarlista);
