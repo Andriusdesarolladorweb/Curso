@@ -60,7 +60,21 @@ const objeto = Estudiantes.find( o => {
     }
 })
 */
+
 const objeto = Estudiantes.find( o => o.Nombre === "Pedro");
 // OTRA forma
 const {Eda} = Estudiantes.find( o => o.Nombre === "Pedro");
 console.log(objeto.Eda)
+
+// metodos mas avanzado con map()
+const newArray = array.map((valor, indice) => `${indice + 1} - ${valor} `)
+console.log(newArray);
+
+// metodos mas avanzado con filter()
+const personasMayores = Estudiantes.filter(obj => obj.Eda < 18 );
+console.log(personasMayores);
+
+// Elimenar a un objerto
+const PersonasMayores = Estudiantes.filter(obj => obj.Nombre !== "Andrius" );
+console.log(PersonasMayores);
+
