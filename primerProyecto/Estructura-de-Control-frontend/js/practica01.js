@@ -43,5 +43,24 @@ console.log(juntar_lista01);
 const oterne = array.slice(2, 4);
 console.log(oterne);
 
+//busqueda de un valor dentro de una lista 
 
+const Estudiantes = [
+    { Nombre : "Andrius", Eda: 17},
+    { Nombre : "Diorkys", Eda: 17},
+    { Nombre : "Carla", Eda: 18},
+    { Nombre : "Moises", Eda: 27},
+    { Nombre : "Pedro", Eda: 37}
+]
 
+/*
+const objeto = Estudiantes.find( o => {
+    if(o.Nombre === "Pedro"){
+        return true
+    }
+})
+*/
+const objeto = Estudiantes.find( o => o.Nombre === "Pedro");
+// OTRA forma
+const {Eda} = Estudiantes.find( o => o.Nombre === "Pedro");
+console.log(objeto.Eda)
