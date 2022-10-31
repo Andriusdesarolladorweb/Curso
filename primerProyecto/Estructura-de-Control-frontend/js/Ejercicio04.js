@@ -12,10 +12,21 @@ console.log(Compra);
 //Lista de mi peliculas favoritas 
 const  primer_pelicula = [
     { 
-      titulo: "Emotivo", 
+      titulo: "Partenida", 
       Director: "Paul Weitz",
       Fecha :  "18 de junio de2001"
+    },
+
+    { 
+      titulo: "El jeremia", 
+      Director: "Anwar Safa",
+      Fecha :  "Marzo de 2015"
+    },
+
+    { 
+      titulo: "Nada que perder", 
+      Director: "Alexandre Avancini",
+      Fecha :  "29 de marzo de 2018"
     }
 ]
 
-//
