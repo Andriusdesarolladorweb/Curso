@@ -10,4 +10,12 @@ const eliminar = Compra.pop();
 console.log(Compra);
 
 //Lista de mi peliculas favoritas 
+const  primer_pelicula = [
+    { 
+      titulo: "Emotivo", 
+      Director: "Paul Weitz",
+      Fecha :  "18 de junio de2001"
+    }
+]
 
+//
