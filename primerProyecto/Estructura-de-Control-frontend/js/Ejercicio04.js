@@ -84,5 +84,5 @@ const DirectoresYTitulos = lista_Titulos.concat(lista_Diretores);
 console.log(DirectoresYTitulos);
 
 // lista que contienen los directores y titulos con ...
-const directoresYtitulos = (...lista_Titulos, ...lista_Diretores);
+const directoresYtitulos = [...lista_Titulos, ...lista_Diretores];
 console.log(DirectoresYTitulos);
