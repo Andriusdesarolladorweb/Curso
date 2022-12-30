@@ -9,12 +9,13 @@ const  datos_ersonales  =  {
 }
 
 // variable con mi edad
-const  MiEdad  =  Edad ;
+const  MiEdad  =  datos_ersonales.Edad ;
 
 // lista con mi objeto datospersonales y tambien con los de mi mejoresAmigas
-const  mejores_amigas  =  [ 
-  
-    datos_personales ,
+const  Lista =  [ 
+  {
+      datos_personales 
+  },
 
     {
         Nombre : "Camila" ,
