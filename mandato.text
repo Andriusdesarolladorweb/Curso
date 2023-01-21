@@ -1,0 +1,13 @@
+Create a new JS file containing the following lines
+
+- A class called "Student" that has:
+
+- A variable called name
+
+- Another list variable called subjects with 3 subjects: Javascript, HTML, CSS
+
+- A "obtenDatos" method that returns an object with the properties name and subjects
+
+- Create a new instance of "Student"
+
+- Make the call to the getData method
