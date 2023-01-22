@@ -1,13 +1,21 @@
-Create a new JS file containing the following lines
+Crea un nuevo proyecto de Node
 
-- A class called "Student" that has:
+- Instala la dependencia HTTP Server en entorno global (https://www.npmjs.com/package/http-server)
 
-- A variable called name
+- Crea un fichero index.html (utiliza el comando "!")
 
-- Another list variable called subjects with 3 subjects: Javascript, HTML, CSS
+- Crea un fichero index.js
 
-- A "obtenDatos" method that returns an object with the properties name and subjects
+- Integra el fichero index.js en el html
 
-- Create a new instance of "Student"
+- Crea un botón en html (<button>Botón</button>)
 
-- Make the call to the getData method
+- Vincula un evento de tipo "click" al botón anterior, que muestre una alerta en el navegador "click en el botón"
+
+- Crea un script para lanzar un servidor de desarrollo con http-server
+
+- Lanza el servidor de desarrollo a través del script anterior y prueba que el botón funciona correctamente
+
+- Integra jQuery a través del CDN (https://releases.jquery.com/)
+
+- En el fichero index.js crea un evento click en el botón a través de jQuery, que muestre por consola "Hola, estoy utilizando jQuery"
